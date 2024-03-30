@@ -2,6 +2,7 @@
 import Layout from "../Layout/Layout.astro"
 import Test from "../components/Test"
 import Home from "../sections/Home"
+import SectionA from "../sections/SectionA"
 import Section1 from "../sections/Section1"
 ---
 
@@ -10,21 +11,22 @@ import Section1 from "../sections/Section1"
 <Layout>
 <Home/>
 
-<Section1 
+<SectionA 
 text="Welcome to the era of spatial computing."
  video="../../src/assets/videos/gif.mp4"/>
 
-<Section1 
+<SectionA 
 text="Apple Vision Pro seamlessly blends digital content with your physical space."
  video="../../src/assets/videos/gif2.mp4"/>
 
-<Section1 
+<SectionA 
 text="You navigate simply by using your eyes, hands, and voice."
  video="../../src/assets/videos/gif3.mp4"/>
 
-<Section1 
+<SectionA 
 text="So you can do the things you love in ways never before possible."
  video="../../src/assets/videos/gif4.mp4"/>
 
+ <Section1/>
 
 </Layout>
